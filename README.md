@@ -1,5 +1,4 @@
 # CS372Final
-# Todd Vorisek
 
 Parts B and C are in final.pdf and final.tex.
 
