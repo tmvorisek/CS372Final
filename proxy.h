@@ -29,10 +29,10 @@ public:
 class Proxy : public Subject
 {
 private:
-  std::unique_ptr<Instance> _instance;
+  std::shared_ptr<Instance> _instance;
 public:
   Proxy(unsigned int);
-  std::unique_ptr<Instance> operator->();
+  std::shared_ptr<Instance> operator->() const;
   virtual void execute() override;
 };
 

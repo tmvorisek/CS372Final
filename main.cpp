@@ -8,6 +8,7 @@
 int main(int argc, char const *argv[])
 {
   Proxy p(1);
-  Proxy
+  p.execute();
+  p->execute(); // -> and . have different functionality.
   return 0;
 }
